@@ -10,7 +10,10 @@
     
     grid-auto-rows: 80px;
 
-    grid-auto-flow: column; // Try with and without this and try to change into row, without this, by default it is row
+    /* // // Try with and without this and try to change into row, without this, by default it is row */
+    grid-auto-flow: column; 
+
+    grid-auto-columns: .5fr;
 
     .item {
       padding: 20px;
