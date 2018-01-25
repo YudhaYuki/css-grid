@@ -10,7 +10,7 @@
     
     grid-auto-rows: 80px;
 
-    /* // // Try with and without this and try to change into row, without this, by default it is row */
+    /* // // Try with and without this and try to change into row, without this, by default it is row
     grid-auto-flow: column; 
 
     grid-auto-columns: .5fr;
@@ -22,10 +22,10 @@
       font-size: 30px;
       background-color: orangered;
     }
-} */
+} 
 
+*/
 
-//// Align item
 
 .container {
     width: 1000px;
@@ -42,7 +42,9 @@
     grid-auto-flow: row;
     grid-auto-column: .5fr;
     
-    align-items: center;
+    align-items: center; /* STRETCH / END /CENTER / START*/
+
+    justify-items: center;
     
     .item {
       padding: 20px;
