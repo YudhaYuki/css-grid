@@ -10,6 +10,8 @@
     
     grid-auto-rows: 80px;
 
+    grid-auto-flow: column; // Try with and without this and try to change into row, without this, by default it is row
+
     .item {
       padding: 20px;
       color: white;
